@@ -6,9 +6,9 @@
   <!-- block 1 -->
   <tr>
     <td valign="top" width="50%">
-      <a target="_blank" href="https://waite0603.github.io/Resume-vCard-Collection/Web/01/">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/01/">
         <p align="center">01</p>
-        <img src="https://cdn.jsdelivr.net/gh/waite0603/Resume-vCard-Collection/assets/img/web/01.jpg" />
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/01.jpg" />
       </a>
     </td>
     <td valign="top">
