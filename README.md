@@ -1,207 +1,270 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Collections</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            background-color: #1a1a1a;
-            color: #ffffff;
-        }
-        .portfolio-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .portfolio-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-        }
-    </style>
-</head>
-<body class="min-h-screen flex flex-col items-center justify-center py-12">
-    <div class="text-center mb-12">
-        <h1 class="text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-            Portfolios<br>Collections
-        </h1>
-    </div>
+<div align="center">
+    <h1>Portfolios<br>Collections</h1>
+</div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        <!-- Portfolio 01 -->
-        <a href="https://maginodan.github.io/portfolios/Web/01/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/01.jpg" alt="Portfolio 01" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">01</p>
-        </a>
-        <!-- Portfolio 02 -->
-        <a href="https://maginodan.github.io/portfolios/Web/02/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/02.jpg" alt="Portfolio 02" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">02</p>
-        </a>
-        <!-- Portfolio 03 -->
-        <a href="https://maginodan.github.io/portfolios/Web/03/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/03.jpg" alt="Portfolio 03" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">03</p>
-        </a>
-        <!-- Portfolio 04 -->
-        <a href="https://maginodan.github.io/portfolios/Web/04/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/04.jpg" alt="Portfolio 04" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">04. vcard-personal-portfolio</p>
-        </a>
-        <!-- Portfolio 05 -->
-        <a href="https://maginodan.github.io/portfolios/Web/05/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/05.jpg" alt="Portfolio 05" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">05. responsive-portfolio-website</p>
-        </a>
-        <!-- Portfolio 06 -->
-        <a href="https://maginodan.github.io/portfolios/Web/06/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/06.jpg" alt="Portfolio 06" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">06</p>
-        </a>
-        <!-- Portfolio 07 -->
-        <a href="https://maginodan.github.io/portfolios/Web/07/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/07.jpg" alt="Portfolio 07" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">07</p>
-        </a>
-        <!-- Portfolio 08 -->
-        <a href="https://maginodan.github.io/portfolios/Web/08/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/08.jpg" alt="Portfolio 08" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">08</p>
-        </a>
-        <!-- Portfolio 09 -->
-        <a href="https://maginodan.github.io/portfolios/Web/09/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/09.jpg" alt="Portfolio 09" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">09</p>
-        </a>
-        <!-- Portfolio 10 -->
-        <a href="https://maginodan.github.io/portfolios/Web/10/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/10.jpg" alt="Portfolio 10" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">10</p>
-        </a>
-        <!-- Portfolio 11 -->
-        <a href="https://maginodan.github.io/portfolios/Web/11/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/11.jpg" alt="Portfolio 11" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">11</p>
-        </a>
-        <!-- Portfolio 12 -->
-        <a href="https://maginodan.github.io/portfolios/Web/12/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/12.jpg" alt="Portfolio 12" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">12. Devfolio</p>
-        </a>
-        <!-- Portfolio 13 -->
-        <a href="https://maginodan.github.io/portfolios/Web/13/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/13.jpg" alt="Portfolio 13" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">13</p>
-        </a>
-        <!-- Portfolio 14 -->
-        <a href="https://maginodan.github.io/portfolios/Web/14/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/14.jpg" alt="Portfolio 14" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">14. Personal</p>
-        </a>
-        <!-- Portfolio 15 -->
-        <a href="https://maginodan.github.io/portfolios/Web/15/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/15.jpg" alt="Portfolio 15" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">15</p>
-        </a>
-        <!-- Portfolio 16 -->
-        <a href="https://maginodan.github.io/portfolios/Web/16/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/16.jpg" alt="Portfolio 16" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">16</p>
-        </a>
-        <!-- Portfolio 17 -->
-        <a href="https://maginodan.github.io/portfolios/Web/17/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/17.jpg" alt="Portfolio 17" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">17</p>
-        </a>
-        <!-- Portfolio 18 -->
-        <a href="https://maginodan.github.io/portfolios/Web/18/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/18.jpg" alt="Portfolio 18" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">18</p>
-        </a>
-        <!-- Portfolio 19 -->
-        <a href="https://maginodan.github.io/portfolios/Web/19/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/19.jpg" alt="Portfolio 19" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">19</p>
-        </a>
-        <!-- Portfolio 20 -->
-        <a href="https://maginodan.github.io/portfolios/Web/20/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/20.jpg" alt="Portfolio 20" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">20</p>
-        </a>
-        <!-- Portfolio 21 -->
-        <a href="https://maginodan.github.io/portfolios/Web/21/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/21.jpg" alt="Portfolio 21" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">21</p>
-        </a>
-        <!-- Portfolio 22 -->
-        <a href="https://maginodan.github.io/portfolios/Web/22/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/22.jpg" alt="Portfolio 22" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">22</p>
-        </a>
-        <!-- Portfolio 23 -->
-        <a href="https://maginodan.github.io/portfolios/Web/23/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/23.jpg" alt="Portfolio 23" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">23</p>
-        </a>
-        <!-- Portfolio 24 -->
-        <a href="https://maginodan.github.io/portfolios/Web/24/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/24.jpg" alt="Portfolio 24" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">24</p>
-        </a>
-        <!-- Portfolio 25 -->
-        <a href="https://maginodan.github.io/portfolios/Web/25/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/25.jpg" alt="Portfolio 25" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">25</p>
-        </a>
-        <!-- Portfolio 26 -->
-        <a href="https://maginodan.github.io/portfolios/Web/26/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/26.jpg" alt="Portfolio 26" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">26</p>
-        </a>
-        <!-- Portfolio 27 -->
-        <a href="https://maginodan.github.io/portfolios/Web/27/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/27.jpg" alt="Portfolio 27" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">27</p>
-        </a>
-        <!-- Portfolio 28 -->
-        <a href="https://maginodan.github.io/portfolios/web/28/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/28.jpg" alt="Portfolio 28" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">28</p>
-        </a>
-        <!-- Portfolio 29 -->
-        <a href="https://maginodan.github.io/portfolios/Web/29/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/29.jpg" alt="Portfolio 29" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">29</p>
-        </a>
-        <!-- Portfolio 30 -->
-        <a href="https://maginodan.github.io/portfolios/Web/30/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/30.jpg" alt="Portfolio 30" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">30</p>
-        </a>
-        <!-- Portfolio 31 -->
-        <a href="https://maginodan.github.io/portfolios/Web/31/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/31.jpg" alt="Portfolio 31" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">31</p>
-        </a>
-        <!-- Portfolio 32 -->
-        <a href="https://maginodan.github.io/portfolios/Web/32/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/32.jpg" alt="Portfolio 32" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">32</p>
-        </a>
-        <!-- Portfolio 33 -->
-        <a href="https://maginodan.github.io/portfolios/Web/33/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/33.jpg" alt="Portfolio 33" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">33</p>
-        </a>
-        <!-- Portfolio 34 -->
-        <a href="https://maginodan.github.io/portfolios/Web/34/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/34.jpg" alt="Portfolio 34" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">34</p>
-        </a>
-        <!-- Portfolio 35 -->
-        <a href="https://maginodan.github.io/portfolios/Web/35/" target="_blank" class="portfolio-card bg-gray-800 rounded-lg overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/35.jpg" alt="Portfolio 35" class="w-full h-48 object-cover">
-            <p class="text-center py-4 text-xl font-semibold">35</p>
-        </a>
-    </div>
-</body>
-</html>
+<table align="center">
+  <!-- block 1 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/01/">
+        <p align="center">01</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/01.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/02/">
+        <p align="center">02</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/02.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 2 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/03/">
+        <p align="center">03</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/03.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/04/">
+        <p align="center">04. vcard-personal-portfolio</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/04.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 3 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/05/">
+        <p align="center">05. responsive-portfolio-website</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/05.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/06/">
+        <p align="center">06</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/06.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 4 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/07/">
+        <p align="center">07</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/07.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/08/">
+        <p align="center">08</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/08.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 5 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/09/">
+        <p align="center">09</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/09.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/10/">
+        <p align="center">10</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/10.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 6 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/11/">
+        <p align="center">11</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/11.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/12/">
+        <p align="center">12. Devfolio</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/12.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 7 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/13/">
+        <p align="center">13</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/13.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/14/">
+        <p align="center">14. Personal</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/14.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 8 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/15/">
+        <p align="center">15</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/15.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/16/">
+        <p align="center">16</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/16.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 9 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/17/">
+        <p align="center">17</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/17.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/18/">
+        <p align="center">18</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/18.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 10 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/19/">
+        <p align="center">19</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/19.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/20/">
+        <p align="center">20</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/20.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 11 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/21/">
+        <p align="center">21</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/21.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/22/">
+        <p align="center">22</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/22.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 12 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/23/">
+        <p align="center">23</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/23.jpg" />
+      </a>
+    </td>
+    <td valign="top">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/24/">
+        <p align="center">24</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/24.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 13 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/25/">
+        <p align="center">25</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/25.jpg" />
+      </a>
+    </td>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/26/">
+        <p align="center">26</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/26.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 14 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/27/">
+        <p align="center">27</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/27.jpg" />
+      </a>
+    </td>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/web/28/">
+        <p align="center">28</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/28.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 15 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/29/">
+        <p align="center">29</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/29.jpg" />
+      </a>
+    </td>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/30/">
+        <p align="center">30</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/30.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 16 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/31/">
+        <p align="center">31</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/31.jpg" />
+      </a>
+    </td>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/32/">
+        <p align="center">32</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/32.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 17 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/33/">
+        <p align="center">33</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/33.jpg" />
+      </a>
+    </td>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/34/">
+        <p align="center">34</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/34.jpg" />
+      </a>
+    </td>
+  </tr>
+  <!-- block 18 -->
+  <tr>
+    <td valign="top" width="50%">
+      <a target="_blank" href="https://maginodan.github.io/portfolios/Web/35/">
+        <p align="center">35</p>
+        <img src="https://cdn.jsdelivr.net/gh/maginodan/portfolios/assets/img/web/35.jpg" />
+      </a>
+    </td>
+  </tr>
+</table>
