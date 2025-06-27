@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Portfolios<br>Collections</h1>
+    <h1>Kent Danielz Portfolios<br>Collections</h1>
 </div>
 
 <table align="center">
